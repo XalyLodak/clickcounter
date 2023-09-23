@@ -22,7 +22,7 @@ function getActualTime() {
     }
     //
     var minString = minutes.toString()
-    if (minString === 1) {
+    if (minString.length === 1) {
         var minDef = "0" + minString
     } else {
         var minDef = minString
